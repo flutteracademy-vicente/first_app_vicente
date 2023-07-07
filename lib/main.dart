@@ -1,4 +1,3 @@
-import 'package:first_app_vicente/second_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
