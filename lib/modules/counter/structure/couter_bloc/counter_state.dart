@@ -17,7 +17,7 @@ class CounterState {
 
   factory CounterState.initial() {
     return CounterState(
-      counter: 0,
+      counter: 100,
       finishTime: CounterTimerSatuts.initial,
     );
   }

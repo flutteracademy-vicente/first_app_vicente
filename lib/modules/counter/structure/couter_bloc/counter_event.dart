@@ -3,9 +3,11 @@ part of 'counter_bloc.dart';
 abstract class CounterEvent {}
 
 class IncrementCounterEvent extends CounterEvent {
-  final int incrementNum;
+  // final int incrementNum;
 
-  IncrementCounterEvent({required this.incrementNum});
+  IncrementCounterEvent(
+      // required this.incrementNum,
+      );
 }
 
 class DecrementCounterEvent extends CounterEvent {
